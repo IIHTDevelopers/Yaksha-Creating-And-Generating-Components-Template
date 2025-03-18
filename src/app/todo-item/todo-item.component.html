@@ -1,0 +1,4 @@
+<div class="todo-item">
+    <input type="checkbox" [(ngModel)]="task.completed" (change)="toggleComplete()" />
+    <span [class.completed]="task.completed">{{ task.name }}</span>
+</div>
