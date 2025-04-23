@@ -20,7 +20,7 @@
             "outputPath": "dist/angular-jest",
             "index": "src/index.html",
             "main": "src/main.ts",
-            "polyfills": "node_modules/zone.js/dist/zone",
+            "polyfills": "zone.js",
             "tsConfig": "tsconfig.app.json",
             "inlineStyleLanguage": "css",
             "assets": [
@@ -80,7 +80,7 @@
         "test": {
           "builder": "@angular-devkit/build-angular:karma",
           "options": {
-            "polyfills": "node_modules/zone.js/dist/zone",
+            "polyfills": "zone.js",
             "tsConfig": "tsconfig.spec.json",
             "inlineStyleLanguage": "css",
             "assets": [
